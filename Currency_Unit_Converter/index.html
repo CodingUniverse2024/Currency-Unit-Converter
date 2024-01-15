@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <input type="number" id="currency">
+            <select id="input" onchange="inx()">
+                <option>From</option>
+        <option value="1" id="i">INR</option>
+        <option value="1.6" id="n">NPR</option>
+    </select>    
+    <select id="output">
+        <option>To</option>
+        <option value="1" id="inr">INR</option>
+        <option value="1.6" id="npr">NPR</option>
+    </select>    
+    <button onclick="convert()">Convert</button>
+    <br>
+    <h2 id="print"></h2>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

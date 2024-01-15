@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: beige;
+    font-size: 10px;
+
+}
+.container{
+    width: 40%;
+   position: relative;
+   left: 25%;
+   margin: 2%;
+}
+button,select,input{
+    height: 5vh;
+    width: 15vh;
+}
+input{
+    width: 25vh;
+}
+button{
+    color: whitesmoke;
+    background-color: red;
+}
+select{
+    background-color: blueviolet;
+    color: greenyellow;
+}
+input{
+    background-color: black;
+    color: greenyellow;
+}
+
+#print{
+    margin: 4%;
+}
